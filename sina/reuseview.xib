@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="0ZG-Gs-bDy" customClass="ReusableView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="222"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pGL-BH-qMv">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="172"/>
+                    <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                </scrollView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fib-7Q-8lS">
+                    <rect key="frame" x="0.0" y="172" width="320" height="50"/>
+                    <color key="backgroundColor" red="0.73917527512503611" green="0.94232988044420529" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="nbG-xZ-Vdv"/>
+                    </constraints>
+                    <attributedString key="attributedText">
+                        <fragment content="这是组头,可以打广告赚钱">
+                            <attributes>
+                                <color key="NSColor" red="0.24239920407597904" green="0.72462375416245051" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="27" name="PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingHead" baseWritingDirection="leftToRight" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                    <color key="shadowColor" red="0.6220046260612313" green="1" blue="0.91064858640299962" alpha="1" colorSpace="calibratedRGB"/>
+                    <size key="shadowOffset" width="2" height="2"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.445713174662416" blue="0.91586537860250627" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="pGL-BH-qMv" firstAttribute="top" secondItem="0ZG-Gs-bDy" secondAttribute="top" id="1X9-3J-WLU"/>
+                <constraint firstItem="fib-7Q-8lS" firstAttribute="leading" secondItem="0ZG-Gs-bDy" secondAttribute="leading" id="TVb-QO-bNh"/>
+                <constraint firstAttribute="trailing" secondItem="fib-7Q-8lS" secondAttribute="trailing" id="bUG-9V-qRX"/>
+                <constraint firstAttribute="trailing" secondItem="pGL-BH-qMv" secondAttribute="trailing" id="bke-n1-gl6"/>
+                <constraint firstAttribute="bottom" secondItem="fib-7Q-8lS" secondAttribute="bottom" id="k5g-Mz-Hku"/>
+                <constraint firstItem="pGL-BH-qMv" firstAttribute="leading" secondItem="0ZG-Gs-bDy" secondAttribute="leading" id="lJ6-vj-8R8"/>
+                <constraint firstItem="pGL-BH-qMv" firstAttribute="bottom" secondItem="fib-7Q-8lS" secondAttribute="top" id="wta-oq-ojH"/>
+            </constraints>
+            <connections>
+                <outlet property="scoolview" destination="pGL-BH-qMv" id="V7m-72-lLh"/>
+            </connections>
+            <point key="canvasLocation" x="281" y="329"/>
+        </collectionReusableView>
+    </objects>
+</document>

@@ -1,0 +1,20 @@
+PODS:
+  - MJRefresh (3.1.12)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SVProgressHUD (2.0.3)
+
+DEPENDENCIES:
+  - MJRefresh
+  - SDWebImage
+  - SVProgressHUD
+
+SPEC CHECKSUMS:
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+
+PODFILE CHECKSUM: 0a199f3f62de03832e7acaf5cd5a553710002fd8
+
+COCOAPODS: 1.0.1

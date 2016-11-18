@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5C0116D40A6B0B7ADF9B335CF4FCCC4B1F170AFC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "22fc6ebc-8c62-44f2-a3cc-23ddc1a72592++7031" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "22fc6ebc-8c62-44f2-a3cc-23ddc1a72592++7031" : 0,
+    "5C0116D40A6B0B7ADF9B335CF4FCCC4B1F170AFC" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EA6F7FFC-3F8D-47C9-89D4-78458FBEBC56",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "22fc6ebc-8c62-44f2-a3cc-23ddc1a72592++7031" : "sina%202\/sina\/AFNetworking\/myModel\/guoqi\/",
+    "5C0116D40A6B0B7ADF9B335CF4FCCC4B1F170AFC" : "sina%202\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "sina",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "sina.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/localhost",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "22fc6ebc-8c62-44f2-a3cc-23ddc1a72592++7031"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lirenwei123\/AFNmyselfPacking.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5C0116D40A6B0B7ADF9B335CF4FCCC4B1F170AFC"
+    }
+  ]
+}
